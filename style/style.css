@@ -1,0 +1,401 @@
+:root {
+    --primary-color: #5D5A88;
+    --secondary-color: #9795B5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #FFFFFF;
+    font-size: 18px;
+    color: var(--primary-color);
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+ 
+.ul {
+    margin: 0;
+}
+
+.header {
+    background-color: #F9F9FF;
+    line-height: 18px;
+    padding: 40px 0;
+}
+
+.header__link {
+    color: var(--primary-color);
+}
+
+.header__link:hover {
+    color: #1500FF;   
+}
+
+.header__link:active{
+    color: #000;
+}
+
+.hero {
+    background-color: #FFF;
+    padding: 120px 0;
+
+}
+
+.title-h1 {
+    color: var(--primary-color);
+    font-size: 56px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.button {
+    display: inline-block;
+    padding: 25px 35px;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button_s {
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    border: none;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.button__icon {
+    margin-left: 10px;
+}
+
+.button_s:hover {
+    background-color: #5F5C7F;
+}
+
+.button_s:active {
+    background-color: #A4A2C4;
+}
+
+.button_sacondary-s {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1.5px solid var(--primary-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;   
+}
+
+.button_sacondary-s:hover {
+    background-color: #F6F5FF;
+}
+
+.button_sacondary-s:active {
+    background-color: #EFEEFB;
+}
+
+.title-h2 {
+    color: var(--primary-color);
+    font-size: 36px;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+.text {
+    color: var(--secondary-color);
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.clients {
+    background-color: #F9F9FF;
+    padding: 100px 0 155px;
+}
+
+.clients__titel {
+    color: #1E285F;
+}
+
+.numbers{
+    padding: 177px 0 176px;
+}
+
+.numbers__text {
+    color: var(--primary-color);
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.light {
+    color: #BCBACD;
+}
+
+.title-h3 {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.numbers__title-h3 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+.get-started {
+    background-color: #F2F1FA;
+    padding: 0;
+}
+
+.get-started__text {
+    color: var(--secondary-color);
+}
+
+.link {
+    color: #ADABC3;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7;   
+}
+
+.link:visited {
+    color: #8F00FF9E;
+}
+
+.link:hover {
+    color: var(--primary-color);
+}
+
+.link:active {
+    color: #1500FF;
+}
+
+.button_m {
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    padding: 30px 55px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.button_m:hover {
+    background-color: #5F5C7F;
+}
+
+.button_m:active {
+    background-color: #A4A2C4;  
+}
+
+.button_sacondary-m {
+    background-color: transparent;
+    color: var(--primary-color);
+    border:1.5px solid var(--primary-color);
+    padding: 30px 55px;
+    border-radius: 45px;
+    font-weight: 400;
+    line-height: 1; 
+}
+
+.button_sacondary-m:hover {
+    background-color: #F6F5FF;
+}
+
+.button_sacondary-m:active {
+    background-color: #EFEEFB;  
+}
+
+.data-section {
+    background-color: #FFF;
+    padding: 122px 0 133px;
+}
+
+.table {
+    background-color: #FFF;
+    border-color: #DDDFE1;
+}
+
+.table__thead,
+.table__tfoot {
+    color: #464A53;
+    font-size: 15px;
+    line-height: 3;
+    font-weight: 400; 
+}
+
+.table__tbody {
+    color: #6A707E;
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.table__tbody .table__data-2,
+.table__tbody .table__data-5 {
+    color: #ABAFB3;  
+}
+
+.table__tbody .table__row-1,
+.table__tbody .table__row-3 {
+    background-color: #FAFAFA;
+}
+
+.table__tfoot .table__row-foot {
+    background-color: #FAFAFA;
+}
+
+.video {
+    padding: 100px 0;
+}
+
+.video_titel-center {
+    text-align: center;
+}
+
+.video__text {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.through {
+    text-decoration: line-through;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.italic-bold {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.content-cards {
+    padding: 327px 0 150px;
+}
+
+.content-cards_titel-center {
+    text-align: center;
+}
+
+.content-cards_text-center {
+    text-align: center;
+}
+
+.item_xl {
+    background-color: #F2F1FA;
+}
+
+.content-cards__link {
+    color: #8D8BA7;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.content-cards__item {
+    background-color: #F2F1FA;
+}
+
+.container_footer {
+    color: var(--secondary-color);
+    padding: 72px 0;
+}
+
+
+
+
+
+.background {
+    height: 570px;
+    background-color: #F2F1FA;
+    background-image: url(../images/css.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-bottom: 50px;
+}
+
+.bg-xl_center {
+    background-position: center;
+}
+
+.bg-xl_right {
+    background-position: right center; 
+}
+
+.bg-xl_repeat {
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.bg-s {
+    background-position: left;
+    background-size: auto 50%;
+}
+
+.bg-s_repeat-x {
+    background-size: auto 50%;
+    background-repeat: repeat-x
+}
+
+.bg-s_repeat-inital  {
+    background-repeat: repeat;
+    background-position: initial;
+}
+
+.bg-s_rep{
+    background-repeat: initial;
+}
+
+.bg-s_repeat-center {
+    background-position: top center;
+}
+
+.bg-s_repeat-duble {
+    background-repeat: repeat;
+    background-position: top left ;
+    background-size: auto 45%;
+}
+
+.repeat-final{
+    background-position: center;
+}
+
+.bg-s_center {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-s_repeat-y {
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+.bg-s_center-y {
+    background-repeat: repeat-y;
+    background-position: center;   
+}
+
+.background_double {
+    background-image: url(../images/green.png), url(../images/mantis.png);
+    background-position: center, center;
+    background-size: auto 50%, 100% auto;
+}
+
